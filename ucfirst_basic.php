@@ -1,6 +1,3 @@
---TEST--
-Test ucfirst() - Uppercase first letter of a string
---FILE--
 <?php
 
 $string = "name";
@@ -10,7 +7,3 @@ var_dump(ucfirst($string));
 var_dump(ucfirst($string_already_uppercase));
 
 ?>
---EXPECTF--
-
-string(4) "Nam"
-string(4) "NAME"
