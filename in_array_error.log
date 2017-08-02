@@ -1,7 +1,0 @@
-
----- EXPECTED OUTPUT
-Causes failure
-Warning: in_array() expects parameter 2 to be array, %s given in %s on line %d
----- ACTUAL OUTPUT
-Warning: in_array() expects parameter 2 to be array, string given in /usr/src/phpt/in_array_error.php on line 4
----- FAILED

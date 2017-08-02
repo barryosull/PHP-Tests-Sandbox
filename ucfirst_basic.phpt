@@ -12,5 +12,5 @@ var_dump(ucfirst($string_already_uppercase));
 ?>
 --EXPECTF--
 
-string(4) "Nam"
+string(4) "Name"
 string(4) "NAME"
