@@ -6,9 +6,11 @@ curl_share_close basic test
 <?php
 
 $sh = curl_share_init();
+//Show that there's a curl_share resource
 var_dump($sh);
 
 curl_share_close($sh);
+//Show that resource is no longer a curl_share, and is therefore unusable and "closed"
 var_dump($sh);
 
 ?>
